@@ -3,7 +3,7 @@ kind: API
 metadata:
   namespace: default
   name: api-master
-  description: master list of all APIs
+  description: Master list of all APIs
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
@@ -11,4 +11,4 @@ spec:
   lifecycle: experimental
   owner: team-c
   definition:
-    $text: /swagger/api-master.yaml
+    $text: https://raw.githubusercontent.com/edfajardoCiandt/bs-apis/main/openapi/api-master.yaml
