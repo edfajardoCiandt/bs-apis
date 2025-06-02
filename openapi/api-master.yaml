@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  namespace: default
+  name: api-master
+  description: master list of all APIs
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: /swagger/api-master.yaml
