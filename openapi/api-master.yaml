@@ -11,4 +11,4 @@ spec:
   lifecycle: experimental
   owner: team-c
   definition:
-    $text: https://raw.githubusercontent.com/edfajardoCiandt/bs-apis/main/openapi/api-master.yaml
+    $text: api-master_swagger.yaml
